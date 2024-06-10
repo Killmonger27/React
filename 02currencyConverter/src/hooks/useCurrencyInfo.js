@@ -16,10 +16,10 @@ const useCurrencyInfo =  (currency) => {
         
         fetchData()
 
-    },['currency'])
-    console.log(data)
+    },[currency])
 
     return data
+    
 }
 
 
